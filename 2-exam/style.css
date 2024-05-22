@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Freeman&family=Oswald:wght@200..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Home */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0a0a0b;
+  color: #757575;
+}
+h1,
+h2,
+h3 {
+  color: #fff;
+  font-family: "Freeman", sans-serif;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 26px;
+  width: 1080px;
+  background-color: rgb(217, 219, 100);
+  border-radius: 10px 100px / 120px 100px;
+}
+/* nav-bar */
+.container .logo {
+  color: #0e0e0e;
+}
+.nav-bar {
+  display: flex;
+  gap: 64px;
+  align-items: center;
+}
+.nav-bar li {
+  list-style: none;
+}
+.nav-bar .nav-link {
+  display: flex;
+  text-decoration: none;
+  color: #0e0e0e;
+  font-family: "Anton", sans-serif;
+  font-size: large;
+}
+.nav-btn {
+  background-color: white;
+  color: #0e0e0e;
+  padding: 12px 12px;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 32px 64px;
+}
+
+.nav-btn a {
+  text-decoration: none;
+  color: #0e0e0e;
+  font-family: "Oswald", sans-serif;
+}
+/* container width */
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* hero-section */
+.hero-section {
+  min-width: 100px;
+}
+.hero-section .container {
+  padding: 28px 0;
+}
+.hero-section .inner-container {
+  width: 70%;
+}
+.hero-section .tagline {
+  font-size: 40px;
+}
+.moti {
+  margin-top: 12px;
+}
+/* images-section */
+.images-section {
+  width: 800px;
+  height: 460px;
+  background-color: #aaa9a9;
+  color: #0e0e0e;
+  border-radius: 32px;
+  padding: 26px 26px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-title {
+  padding: 1px;
+  color: #0e0e0e;
+  padding: 26px;
+  margin-left: 20px;
+}
+.images-section .moto {
+  color: #050000;
+  padding: 24px;
+  font-size: medium;
+}
+.base {
+  background-color: rgb(217, 219, 100);
+  width: 1080px;
+  margin: 80px auto;
+  border-radius: 16px;
+  padding: 20px;
+}
+.base p {
+  text-align: center;
+}
+/* Home */
+
+/* Story */
+.story-container {
+  width: 840px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Oswald", sans-serif;
+}
+
+.story-section {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+.card {
+  text-align: center;
+  width: 350px;
+  min-height: 300px;
+  border: 1px solid white;
+  border-radius: 16px;
+  background-color: rgb(243, 243, 243);
+  color: black;
+
+  justify-content: center;
+}
+.card-title {
+  font-size: 24px;
+  color: #050000;
+}
+.card-link {
+  margin-top: 16px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: black;
+  border-radius: 32px;
+  color: white;
+  padding: 2px 12px;
+}
+/* converstaion css */
+.talking-main {
+  width: 840px;
+  margin-top: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Oswald", sans-serif;
+}
+.talking-hero-section h3 {
+  width: 640px;
+  font-size: 24px;
+}
+.talking-container img {
+  width: 400px;
+  border-radius: 64px 32px;
+}
+.talking-container p {
+  width: 300px;
+  height: 200px;
+  background-color: #fff;
+  color: #050000;
+
+  border-radius: 24px;
+  margin: 24px;
+  padding: 18px;
+}
+
+.talking-hero-section .talking-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 36px;
+  gap: 32px;
+}
+.categories {
+  width: 640px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.categories h3 {
+  font-size: 32px;
+}
+
+.categories .cate {
+  text-align: center;
+  background-color: rgb(184, 195, 196);
+  border-radius: 32px;
+  margin: 24px 0;
+  padding: 32px 16px;
+}
+.cate .cate-list {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+/* Grammer */
+.grammer-section {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grammer-section h3 {
+  font-size: 32px;
+  padding: 32px;
+}
+.grm-content {
+  font-family: "Oswald", sans-serif;
+  padding: 16px 32px;
+  color: #fff;
+}
+
+.grm-category {
+  width: 840px;
+  margin: 0 auto;
+}
+.grm-category .grm-list {
+  padding: 32px;
+  text-align: center;
+}
+.grm-category .grm-list .grm-link {
+  text-decoration: none;
+  background-color: #dedede;
+  color: #050000;
+  padding: 16px 32px;
+  border-radius: 32px;
+  display: block;
+}
+/* form  */
+.form {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 48px;
+}
+.form .none {
+  text-decoration: none;
+}
